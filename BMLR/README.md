@@ -12,7 +12,7 @@ Bayesian Mixture Linear Regression models are used when the data is believed to 
 
 ## Key Functions
 
-- `vb_bmlr`: Main variational Bayes function for BMLR models
+- `vb_bmlr`: Main fractional variational Bayes function for BMLR models
 - `update_omega_beta`: Sequential TVB update function
 - `boot_tvb`: Grid search dictionary building function
 
