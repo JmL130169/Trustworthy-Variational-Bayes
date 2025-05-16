@@ -19,4 +19,6 @@ Bayesian Mixture Linear Regression models are used when the data is believed to 
 ## Simulation Parameters
 The simulation studies in the paper used the following configuration:
 ```bash
---name_batch sim601 --seed 1-500 --cluster 2 --dataset 500 --dim 2 --SNR 0.1 --mixing 0.65
+--name_batch sim601 --seed $SLURM_ARRAY_TASK_ID --cluster 2 --dataset 500 --dim 2 --SNR 0.1 --mixing 0.65
+```
+where `$SLURM_ARRAY_TASK_ID` takes value `1 - 500`.
