@@ -22,4 +22,4 @@ For `n = 1000`
 ```bash
 --name_batch sim306 --seed $SLURM_ARRAY_TASK_ID --cluster 2 --dim 2 --center 2 --sample 1000 --prob 0.65
 ```
-where `$SLURM_ARRAY_TASK_ID` takes value `1 - 500`. For `n = 1500, 2000, 2500, 3000`, only change `--name_batch` to `sim308, sim310, sim312, sim314`, respectively.
+where `$SLURM_ARRAY_TASK_ID` takes value `1 - 500`. For `n = 1500, 2000, 2500, 3000`, change `--name_batch` to `sim308, sim310, sim312, sim314`, and `--sample`, respectively.
