@@ -7,7 +7,7 @@
 #############
 
 # Working directory
-setwd("~/VBC/") # Replace with your own file path
+setwd("~/GMM/") # Replace with your own file path
 
 # Loading package
 library(MASS)
@@ -464,6 +464,8 @@ save(
     ci_tvb_grid,
     cov_tvb_grid,
     omega_tvb_grid,
+    
+    omega_grid,
     
     file = paste0("results/", name.batch, "/", seed_use, ".Rdata")
   
