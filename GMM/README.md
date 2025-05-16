@@ -12,7 +12,7 @@ Gaussian Mixture Models are widely used for clustering and density estimation wh
 
 ## Key Functions
 
-- `vb_gmm`: Main variational Bayes function for GMM models
+- `vb_gmm`: Main fractional variational Bayes function for GMM models
 - `update_omega_pi`: Sequential TVB update function for mixing probability
 - `boot_tvb`: Grid search dictionary building function
 
