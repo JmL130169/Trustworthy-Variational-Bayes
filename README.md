@@ -31,7 +31,7 @@ Variational Bayes (VB) is a computationally efficient method for approximating p
 | &nbsp;&nbsp;&nbsp;&nbsp;TVB_support_gmm.R | Support functions of using GMM on real data |
 | &nbsp;&nbsp;&nbsp;&nbsp;realdata_GMM.R | Implementation of GMM on `old faithful` dataset |
 | &nbsp;&nbsp;&nbsp;&nbsp;gmm_realdata.RData | Results of real data application |
-| &nbsp;&nbsp;&nbsp;&nbsp;README.md | Detail about real data example inmplementation |
+| &nbsp;&nbsp;&nbsp;&nbsp;README.md | Detail about real data example implementation |
 | README.md | This file |
 
 ## Citation
