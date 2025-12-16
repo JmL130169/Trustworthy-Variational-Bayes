@@ -14,6 +14,7 @@ The Old Faithful dataset, included in base R, provides observations of eruption 
 - `TVB_support_gmm.R`: Support functions for fractional VB estimation and TVB calibration
 - `realdata_GMM.R`: Main script for analyzing the Old Faithful dataset
 - `gmm_realdata.RData`: Estimation results
+- `realdata_plot.R`: Uses "gmm_realdata.RData" as dictionary to reproduce the plot in Section 7 of the paper.
 
 ## Key Functions
 
