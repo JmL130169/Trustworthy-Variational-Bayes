@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This repository contains the implementation of "Bend to Mend: Toward Trustworthy Variational Bayes with Valid Uncertainty Quantification" by Jiaming Liu and Meng Li (Rice University).
+This repository contains the implementation of "Bend to Mend: Toward Trustworthy Variational Bayes with Valid Uncertainty Quantification" by Jiaming Liu and Meng Li (Rice University) https://arxiv.org/abs/2512.22655.
 
 ## Overview
 
@@ -36,11 +36,14 @@ Variational Bayes (VB) is a computationally efficient method for approximating p
 
 ## Citation
 ```bibtex
-@article{liu2025bend,
-  title={Bend to Mend: Toward Trustworthy Variational Bayes with Valid Uncertainty Quantification},
-  author={Liu, Jiaming and Li, Meng},
-  journal={},
-  year={2023}
+@misc{liu2025bendmendtrustworthyvariational,
+      title={Bend to Mend: Toward Trustworthy Variational Bayes with Valid Uncertainty Quantification}, 
+      author={Jiaming Liu and Meng Li},
+      year={2025},
+      eprint={2512.22655},
+      archivePrefix={arXiv},
+      primaryClass={stat.ME},
+      url={https://arxiv.org/abs/2512.22655}
 }
 ```
 
