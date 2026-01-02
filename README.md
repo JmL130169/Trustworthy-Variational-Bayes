@@ -36,14 +36,11 @@ Variational Bayes (VB) is a computationally efficient method for approximating p
 
 ## Citation
 ```bibtex
-@misc{liu2025bendmendtrustworthyvariational,
-      title={Bend to Mend: Toward Trustworthy Variational Bayes with Valid Uncertainty Quantification}, 
-      author={Jiaming Liu and Meng Li},
-      year={2025},
-      eprint={2512.22655},
-      archivePrefix={arXiv},
-      primaryClass={stat.ME},
-      url={https://arxiv.org/abs/2512.22655}
+@article{liu2025bend,
+  title={Bend to Mend: Toward Trustworthy Variational Bayes with Valid Uncertainty Quantification},
+  author={Liu, Jiaming and Li, Meng},
+  journal={arXiv preprint arXiv:2512.22655},
+  year={2025}
 }
 ```
 
